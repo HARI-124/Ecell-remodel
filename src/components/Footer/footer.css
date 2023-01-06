@@ -1,0 +1,123 @@
+.ecell__footer{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ flex-wrap: wrap;
+    
+    align-items: flex-start;
+    text-align: left;
+    margin: 0 5rem 4rem 5rem;
+    padding: 2rem;
+    
+}
+.ecell__footer >*{
+    flex: 1;
+    max-width: 300px;
+    min-height: 200px;
+}
+
+.ecell__footer-important{
+    display: flex;
+    flex-direction: column;
+}
+
+.ecell__footer-important-maindiv{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ecell__footer-important-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    
+}
+
+.ecell__footer-important-div1>*{
+    flex: 1;
+}
+.ecell__footer-important-div2>*{
+    flex: 1;
+}
+.ecell__footer-important-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    
+}
+.ecell__footer-contactus{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ecell__footer-important-div1 p{
+    line-height: 0;
+    margin: 12px;
+    margin-left: 0;
+}
+.ecell__footer-important-div2 p{
+    line-height: 0;
+    margin: 12px;
+    margin-left: 0;
+}
+
+.ecell__footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.ecell__footer-subscribe-mail input,.ecell__footer-subscribe-mail button{
+    min-height: 3rem;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid coral;
+    outline: none;
+}
+
+.ecell__footer-subscribe-mail button{
+    width: 100px;
+    background-color:coral;
+    color: aliceblue;
+    font-family: var(--font-family);
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.ecell__foot-socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin: 0 0 3rem 0;
+    min-height: 2rem;
+    cursor: pointer;
+}
+
+.ecell__foot-socialicons>*{
+    height:30px;
+    width:30px;
+}
+.Zoom{
+    height:30px;
+    width:30px;
+    transition: transform .2s;
+
+}
+.Zoom:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}

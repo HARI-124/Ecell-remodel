@@ -1,0 +1,117 @@
+.ecell__header{
+    display: flex;
+    flex:1;
+    margin: 2rem 0 5rem 0;
+}
+
+.ecell__header > *{
+    flex: 1;
+
+}
+
+
+.ecell__header__items{
+    display: flex;
+    flex-direction: column;
+}
+
+.ecell__header__img {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ecell__header__img img{
+    display: flex;
+    width: 400px;
+    height: 440px;
+    
+}
+
+
+.ecell__header__items{
+    flex:1;
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 4rem;
+    box-sizing: border-box;
+}
+
+.ecell__header__title h1{
+    display: flex;
+    flex:1;
+    font-size: 80px;
+    font-family: var(--font-family);
+}
+
+.ecell__header__qoute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    
+    flex:1;
+}
+.ecell__header__qoute span{
+    display: flex;
+}
+
+
+.ecell__header__qoute h1{
+    display: flex;
+    justify-self: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size-big);
+    color: rgb(174, 154, 127);
+} 
+
+.ecell__header__message{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    justify-self: center;
+    width:400px;
+    flex:1;
+}
+.ecell__header__message p{
+    display: flex;
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    color: rgb(174, 154, 127);
+    text-align: left;
+}
+
+.ecell__header__button{
+    height: var( --button--height-big);
+    width:var(--button--width-big);
+}
+
+@media screen and (max-width:1050px){
+    
+    .ecell__header__title h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .ecell__header__qoute h1{
+        font-size: 50px;
+        text-align: center;
+        
+    }
+    .ecell__header__message p{
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .ecell__header{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+    
+    
+}
