@@ -6,9 +6,11 @@
     background-color: antiquewhite;
     height: fit-content;
     width: 100%;
-    /* position: fixed; */
-    flex: 1;
     
+    /* flex: 1; */
+   
+    margin-top: 0;
+   
 }
 
 .ecell__navbar__links{
@@ -97,7 +99,7 @@ p{
   }
 
   .ecell__Discover:hover  {
-    border-top: 2px solid rgb(93, 139, 89);
+    border-top: 4px solid rgb(93, 139, 89);
   }
 
   .ecell__Learn:hover .Learn
@@ -106,7 +108,7 @@ p{
   }
   .ecell__Learn:hover 
   {
-    border-top: 2px solid rgb(93, 139, 89);
+    border-top: 4px solid rgb(93, 139, 89);
   }
 
  
@@ -116,7 +118,7 @@ p{
   }
   .ecell__Initiatives:hover 
   {
-    border-top: 2px solid rgb(93, 139, 89);
+    border-top: 4px solid rgb(93, 139, 89);
   }
  
   .ecell__Incubation:hover .Incubation
@@ -125,10 +127,12 @@ p{
   }
   .ecell__Incubation:hover 
   {
-    border-top: 2px solid rgb(93, 139, 89);
+    border-top: 4px solid rgb(93, 139, 89);
   }
 
- 
+ .ecell__Team:hover , .ecell__Startups:hover , .ecell__Contactus:hover{
+    border-top: 4px solid rgb(93, 139, 89);
+ }
 
  
 

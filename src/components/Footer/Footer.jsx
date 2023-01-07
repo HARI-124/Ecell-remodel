@@ -5,15 +5,6 @@ import {GrInstagram} from "react-icons/gr";
 import {BsFacebook,BsLinkedin,BsTwitter,BsYoutube} from "react-icons/bs";
 import {FaDiscord} from "react-icons/fa"
 
-function handleOver(classe){
-  // document.querySelector("."+classe).classList.add("scale-up-center");
-  alert("scaleup");
-}
-function handleOut(classe){
-  // document.querySelector("."+classe).classList.add("scale-down-center");
-  alert("scaleup");
-}
-
 
 const Footer = () => {
   return (
@@ -48,7 +39,7 @@ const Footer = () => {
         <h4>Important</h4>
        <div className='ecell__footer-important-maindiv'>
        <div className='ecell__footer-important-div1'>
-        <p><a>Home</a></p>
+        <p>Home</p>
         <p>Events</p>
         <p>Blogs</p>
         <p>Initiatives</p>

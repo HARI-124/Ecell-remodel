@@ -121,3 +121,82 @@
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
+
+@media screen and (max-width:1050px) {
+    .ecell__footer-contactus h4{
+        font-size: larger;
+    }
+    .ecell__footer-contactus-address p{
+        font-size: 13px;
+    }
+    .ecell__footer-contactus-email p{
+        font-size: 13px;
+    }
+    .ecell__footer-important h4{
+        font-size: larger;
+    }
+    .ecell__footer-important-div1 p,
+    .ecell__footer-important-div2 p
+    {
+        font-size: 13px;
+    }
+    .ecell__footer-subscribe h4{
+        font-size: larger;
+    }
+    .ecell__footer-subscribe-mail input{
+        min-height: 1rem;
+        max-width: 100px;
+        font-size: small;
+    }
+    
+    
+    
+    .ecell__footer-subscribe-mail button{
+        min-height: 1rem;
+        max-width: 50px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .ecell__footer{
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .ecell__footer-contactus{
+        align-items: center;
+    }
+    .ecell__footer-contactus-address p{
+        text-align: center;
+    }
+    .ecell__footer-contactus-email{
+        text-align: center;
+    }
+    .ecell__footer-important-div1 p,
+    .ecell__footer-important-div2 p
+    {
+        font-size: 12px;
+    }
+
+    .ecell__footer-important{
+        display: none;
+    }
+    .ecell__footer-subscribe-mail input{
+        min-height: 2rem;
+        max-width: 150px;
+        font-size: small;
+    }
+    
+    
+    
+    .ecell__footer-subscribe-mail button{
+        min-height: 2rem;
+        max-width: 70px;
+        font-size: 10px;
+    }
+    .ecell__footer>*{
+        min-width:300px;
+    }
+}

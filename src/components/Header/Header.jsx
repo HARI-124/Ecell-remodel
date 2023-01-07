@@ -22,8 +22,8 @@ const Header = () => {
       </div>
       <div className='ecell__header__qoute'>
         <h1>Accelerate Your Idea </h1>
-        <h1><span class = "typed"></span></h1>
-        <h1>Journey!</h1>
+        {/* <h1><span class = "typed"></span></h1> */}
+        {/* <h1>Journey!</h1> */}
       </div>
       <div className='ecell__header__message'>
         <p>Welcome to the entrepreneurship community of IIT BHU where we ideate, innovate and incubate the future innovations of the century!</p>

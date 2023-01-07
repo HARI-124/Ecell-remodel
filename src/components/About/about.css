@@ -82,9 +82,20 @@
 @media screen and (max-width: 1050px) {
     .ecell__about{
         flex-direction: column;
+        max-width: 900px;
     }
     .ecell__about__items-title h1{
         font-size: 40px;
     }
+    .ecell__about__items{
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 600px;
 
+    }
+    .ecell__about__items-details p{
+        text-align: center;
+    }
+    
 }

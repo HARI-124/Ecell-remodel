@@ -79,18 +79,43 @@
     .ecell__work__card1 img,
     .ecell__work__card2 img,
     .ecell__work__card3 img{
-    height: 80px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
 
 }
 .ecell__work__cards{
     gap:1rem;
     border-radius: 1rem;
+    
 
 }
+.ecell__work__cards>*{
+    gap: 0.25rem;
+}
+
 
 .ecell__work{
     margin-bottom: 4rem;
 }
-    
+
+.ecell__work__card1 p,
+.ecell__work__card2 p,
+.ecell__work__card3 p{
+    font-size: 15px;
+
+} 
+
+
+}
+
+
+@media screen and (max-width: 1050px) {
+    .ecell__work h1{
+        font-size: 40px;
+    }
+    .ecell__work p{
+        font-size: 16px;
+    }
+
+
 }
